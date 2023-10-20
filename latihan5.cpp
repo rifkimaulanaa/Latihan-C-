@@ -5,7 +5,7 @@ using namespace std;
 int main() {
   // Soal a
   int a = 22;
-  a += 5;
+  a = 5;
   cout << "Hasil a = " << a << endl;
 
   // Soal b
