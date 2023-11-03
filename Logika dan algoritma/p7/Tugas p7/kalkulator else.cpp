@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+main() {
 
 int masukkan;
 float angka1, angka2;

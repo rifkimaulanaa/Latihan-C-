@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 main()
 {
 int a , b;
@@ -12,10 +12,10 @@ int result5 =a * b;
 
 
 
-  std::cout <<"hasil a % b: " << result1 << std::endl;
-  std::cout <<"hasil a - b: " << result2 << std::endl;
-  std::cout <<"hasil a + b : " << result3 << std::endl;
-  std::cout <<"hasil a / b: " << result4 << std::endl;
-  std::cout <<"a * b : " << result5 << std::endl;
+  cout <<"hasil a % b: " << result1 << endl;
+  cout <<"hasil a - b: " << result2 << endl;
+  cout <<"hasil a + b : " << result3 << endl;
+  cout <<"hasil a / b: " << result4 << endl;
+  cout <<"a * b : " << result5 << endl;
   
 }

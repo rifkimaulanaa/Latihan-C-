@@ -24,7 +24,7 @@ int main() {
             break;
         default:
             cout << "Unknown letter " << letter << endl;
-            exit_flag = -1;
+            exit_flag = 1;
     }
 
     cout << "exit_flag: " << exit_flag << endl;
