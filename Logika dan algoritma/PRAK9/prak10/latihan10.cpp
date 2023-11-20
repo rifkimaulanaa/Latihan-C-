@@ -1,38 +1,38 @@
-#include <iostream>
+#include <stdio.h>
 #include <stdlib.h>
-using namespace std;
 
 
-    main(){
-        cout <<"rifki"; 
-        cout<<endl;
-    lagi:
+        main()
+    {
+        lagi:
+        int i,n,sum=0;
+        char pilih;
 
-int i, j,n;
-char pilih;
-cout <<"Masukkan jumlah data";
-    cin>>n;
-for (i=1; i<=n; i++){
+        printf("masukkan bilangan :");
+            scanf("%d", &n);
 
-    for(j=1; j<=n; j++){
-        cout<<j;
+            for(i=1; i<=n; i++){
+            printf("\n%d", sum);
+            sum+=i;       
+
+
     }
-    cout<<endl;
-}
-cout <<"apakah anda ingin keluar (y/t) ?";
-pilih =getchar();
-    cout<<pilih;
 
-        if (pilih =='t')
-        goto lagi;
+    printf("\n\n apakah anda ingin keluar  (y/t) ?");
+    pilih = getchar();
+    scanf("%c", &pilih);
+    if(pilih=='t')
+    goto lagi;
 
-        else if (pilih =='Y' || pilih=='T') {
-
-            cout <<"program selesai";
-            exit(0);
-        }
+    else if (pilih =='Y' || pilih=='T'){
+        printf("\n\t=>> ERROR ");
+        exit(0);
 
 
-    if(pilih =='y')
+    }
+    else if(pilih=='Y')
     exit(0);
+    printf("\n");
+
+
     }
