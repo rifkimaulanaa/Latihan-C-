@@ -5,9 +5,11 @@ main(){
 
 int i,b,c=0;
 char a;
-    
+char ulang ='y';
 
-        cout<<"Masukkan bilangan :";
+while (ulang=='y')
+{
+    cout<<"Masukkan bilangan :";
         cin>>b;
 
         for (i=1; i<=b; i++){
@@ -17,7 +19,13 @@ char a;
             c +=i;
             cout<<endl;
         }
+cout <<"masukkan data lgi [y/t] ?";
+getchar();
+ulang = getchar();
+}
+    
 
+    
 
 
 }

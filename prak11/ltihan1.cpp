@@ -4,8 +4,11 @@ using namespace std;
 main()
 {
 int i,b,n;
+char ulang ='y';
 
-cout<<"masukkan bilangan :";
+while(ulang == 'y' ){
+
+    cout<<"masukkan bilangan :";
 cin>>n;
 
 for(i=1; i<=n ; i++)
@@ -20,6 +23,13 @@ for(i=1; i<=n ; i++)
 
 cout<<endl;
 }
+cout <<"masukkan data lgi [y/t] ?";
+getchar();
+ulang = getchar();
+
+}
+
+
 
 
 

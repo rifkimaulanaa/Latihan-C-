@@ -20,7 +20,7 @@ for(i=1; i<n; i+=2)
         continue;
 
         cout<<i;
-     cout <<'\n';
+    cout <<'\n';
 
 
 

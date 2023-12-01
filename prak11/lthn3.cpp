@@ -3,8 +3,10 @@ using namespace std;
 
 main(){
 int bil=1, bil2=2, prima, pembagi, n, isprima;
+char ulang ='y';
 
-
+while (ulang =='y')
+{
 cout<<"masukkan bilangan :";
 cin>>n;
 
@@ -29,6 +31,13 @@ while(bil<=n){
     bil2++;
     cout<<'\n';
 }
+cout <<"masukkan data lgi [y/t] ?";
+getchar();
+ulang = getchar();
+
+}
+
+
 
 
 }
